@@ -1,0 +1,23 @@
+DOMANDE TEORIA
+
+1) Descrivere le differenze tra Value e Reference Type
+2) Dare una panoramica degli elementi che mette a disposizione la piattaforma
+.Net.
+3) Spiegare le differenze tra .Net Framework, .Net Core.
+
+-------------------------------------------------------------
+
+1) Per i value type il dato viene salvato nello stack, contengono un valore e 
+   possono essere nullabili. Sono tipi primitivi, enum struct e tupla.
+   Per quanto riguarda i reference type hanno lo stack che contine il puntatore all'heap,
+   il valore e nell'heap e ammettono null come valore. Sono object, class, string, interface, 
+   array e delegate.
+
+2) .Net è una piattaforma Microsoft di sviluppo, un ambiente di esecuzione, 
+   open source ed è gratuita
+
+3) .Net Framework viene utilizzato per sviluppare applicazioni di varia natura esclusivamente
+   per il sistema Windows
+   .Net Core è un'implementazione multipiattaforma, elimina ogni legame specifico con Windows.
+   Con questo framework possiamo sviluppare applicazioni per Windows, Mac e Linux 
+   e sono applicazioni destinate al lato server.
